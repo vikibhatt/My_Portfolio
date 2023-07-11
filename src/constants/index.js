@@ -23,7 +23,7 @@ import {
 
   import BharatIntern from '../assets/company/BharatIntern.png'
   import CodSoft from '../assets/company/codSoft.jpeg'
-  import Java from '../assets/tech/java.png'
+  import java from '../assets/tech/java.png'
   import firebase from '../assets/tech/firebase.png'
   
   export const navLinks = [
@@ -70,10 +70,6 @@ import {
   
   const technologies = [
     {
-      name: "Java",
-      icon: Java,
-    },
-    {
       name: "HTML 5",
       icon: html,
     },
@@ -92,6 +88,10 @@ import {
     {
       name: "React JS",
       icon: reactjs,
+    },
+    {
+      name: "Java",
+      icon: java,
     },
     {
       name: "Firebase",
