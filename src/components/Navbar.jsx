@@ -26,7 +26,7 @@ const Navbar = () => {
           <img src={logo} alt="logo" className = "flex justify-center items-center w-16 h-18 object-contain"/>
           <p className="text-white text-[18px] mt-3 font-bold cursor-pointer flex lg:flex-row md:flex-col sm:flex-col xs:flex-col">
             Vikas Bhatt
-            <span className='xs:block'>| Web Developer</span>
+            <span className='sm:block hidden'>| Web Developer</span>
           </p>
         </Link>
         <ul className="list-none hidden lg:flex flex-row gap-10">
